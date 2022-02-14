@@ -1,0 +1,131 @@
+@media screen , print {
+    
+    html {
+        height: 296mm;        
+        display: flex;
+        background-color: #757373;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body {
+        height:296mm;
+        width:210mm;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr 2fr;        
+        background-color: white;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2.6em;
+        letter-spacing: 12px; 
+        font-family: DFKai-sb;
+        text-align: center;       
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+        margin: 8px 0;
+    }
+
+    h4 {
+        font-size: 1em;
+        margin: 8px 0;        
+    }
+
+    .right {
+        padding: 0 30px;
+    }
+
+    #skills,
+    #contact {
+        position: relative;
+        margin: 10px 20px;
+        margin-top: 50px;
+    }
+    
+
+    #contact div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #skills li {
+        list-style-type: square;
+        font-variant: small-caps;
+        padding: 2.5px 0;
+    }
+
+    h2.title {
+        font-size: 1.3em;
+        position: relative;
+        margin: 30px 0;
+    }
+
+    h2.title:after {
+        content: "";
+        position: absolute;
+        left: 1%;        
+        bottom: -10px;
+        width: 95%;
+        height: 2px;
+        background: #000;
+    }
+    
+    .left {
+        /* margin-top: 49%; */
+        background-color: rgb(34, 64, 106);
+        color: white;
+    }
+
+    .right .name h2 {  
+        position: relative;      
+        text-align: right;
+        letter-spacing: 5px;
+        font-family: DFKai-sb, Comic Sans MS, Arial, Helvetica, sans-serif;       
+        left: -17%;
+    }
+
+    .right .name {
+        position: relative;
+        padding: 0px 0;
+        /* left: -11%; */
+    }
+
+    #exp, #edu{
+        margin: 20px 0px;
+    }
+
+    .right pre {
+        position: relative;
+        font-size: 1.1em;
+        left: 8px;
+        white-space: pre-line;
+    }  
+
+    #edu {
+        margin-top: 50px;
+    }
+
+    #img {
+        display: flex;
+        justify-content: center;        
+        margin: 30px 5px;        
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 125px;
+        object-position: 1px -7px;
+        background-color: white;
+    }
+
+}  
